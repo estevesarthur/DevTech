@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="10dp"
+    android:layout_height="match_parent"
+    android:id="@+id/card_view"
+    android:layout_margin="10dp"
+    tools:ignore="MissingClass">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/Base.CardView" />
+
+        <ImageView
+            android:id="@+id/imgQuemSomos"
+            android:layout_width="327dp"
+            android:layout_height="144dp"
+            android:layout_gravity="center"
+            android:theme="@style/Base.CardView"/>
+
+        <TextView
+            android:id="@+id/quemSomos"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/Base.CardView"/>
+
+        <ImageView
+            android:id="@+id/imgNossoPortfolio"
+            android:layout_width="324dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:theme="@style/Base.CardView" />
+        <TextView
+            android:id="@+id/nossoPortfolio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:theme="@style/Base.CardView"/>
+
+        <ImageView
+            android:id="@+id/imgContato"
+            android:layout_width="326dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:theme="@style/Base.CardView" />
+
+        <TextView
+            android:id="@+id/contato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:theme="@style/Base.CardView"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
